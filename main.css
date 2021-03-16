@@ -1,0 +1,41 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #fff;
+}
+
+#search-text {	
+  margin: 10px;
+  width: 400px;
+  height: 30px;
+  border: 2px solid #c4b09d;
+  outline: none;
+}
+
+img{
+  width : 200px;
+  height : 150px;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keyword {
+  margin-left: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.sub {
+  display: none;
+}
+
+.item {
+  margin: 10px;
+  background-color: #fff;
+  border: 2px solid #996633;
+  box-shadow: -2px 5px 5px #e8d3c7;
+}
+
